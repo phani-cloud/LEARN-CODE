@@ -1,4 +1,5 @@
-.hero{
+
+hero{
   text-align:center;
   padding:40px;
   background:#f4f4f4;
@@ -76,7 +77,7 @@ footer{
 }
 
 .course-card a:hover{
-  background:#0056cc;
+  background: blue;
 }
 .course-card:hover{
   transform:translateY(-5px);
@@ -216,4 +217,223 @@ cursor:pointer;
 
 .contact button:hover{
 background:#0056cc;
+}
+.hero{
+text-align:center;
+}
+.container{
+width:80%;
+margin:auto;
+padding:20px;
+}
+
+.section-title{
+margin-bottom:15px;
+}
+
+.course-list li{
+margin:8px 0;
+}
+
+.footer{
+text-align:center;
+padding:20px;
+}
+
+.back-btn{
+text-decoration:none;
+background:#0077ff;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+}
+
+.back-btn:hover{
+background:#0056cc;
+}
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#111;
+color:white;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:50px;
+background:#f4f4f4;
+}
+
+/* PROGRESS BAR */
+
+.progress-section{
+width:80%;
+margin:auto;
+padding:20px;
+}
+
+.progress-bar{
+width:100%;
+height:20px;
+background:#ddd;
+border-radius:10px;
+}
+
+.progress{
+width:20%;
+height:100%;
+background:#0077ff;
+border-radius:10px;
+}
+
+/* CONTAINER */
+
+.container{
+width:80%;
+margin:auto;
+padding:20px;
+}
+
+/* LESSON GRID */
+
+.lesson-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+/* LESSON CARDS */
+
+.lesson-card{
+display:block;
+padding:20px;
+background:white;
+border-radius:10px;
+text-decoration:none;
+color:black;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.lesson-card:hover{
+transform:translateY(-5px);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+
+.footer{
+text-align:center;
+padding:20px;
+}
+
+.back-btn{
+background:#0077ff;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+}
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#111;
+color:white;
+
+/* Sticky Navbar */
+position:sticky;
+top:0;
+z-index:1000;
+}
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+body{
+font-family: Arial, sans-serif;
+line-height:1.6;
+margin:0;
+background:#fafafa;
+}
+.lesson-card{
+display:block;
+background:white;
+padding:20px;
+border-radius:10px;
+text-decoration:none;
+color:black;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+transition:all 0.3s ease;
+}
+
+.lesson-card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#111;
+color:white;
+position:sticky;
+top:0;
+}
+/* Layout */
+
+.layout{
+display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+width:250px;
+background:#f4f4f4;
+padding:20px;
+height:100vh;
+position:sticky;
+top:0;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar li{
+margin:10px 0;
+}
+
+.sidebar a{
+text-decoration:none;
+color:#333;
+}
+
+/* Main Content */
+
+.content{
+flex:1;
+padding:40px;
 }
