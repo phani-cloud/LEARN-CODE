@@ -406,3 +406,9 @@ a:hover {
 .bold {
   font-weight: bold;
 }
+
+@media (max-width: 760px) {
+  img {
+    width: 70%
+  }
+}
